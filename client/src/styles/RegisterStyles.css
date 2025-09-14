@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Libre+Baskerville&display=swap');
+body {
+    background-color: #6b8484;
+    font-family: Libre Baskerville, serif;
+    height: auto;
+}
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.register-form {
+    border: 1px solid gray;
+    padding: 30px;
+    background-color: lightgray;
+}
+a{
+    text-decoration: none;
+    color: rgb(8, 97, 97);
+    font-weight: 550;
+    font-family: Libre Baskerville, serif;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(6, 44, 44);
+    font-weight: 400;
+    font-family: Libre Baskerville, serif;
+}

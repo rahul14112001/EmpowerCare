@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Libre+Baskerville&display=swap');
+
+.main {
+    padding: 10px;
+    height: 100vh;
+  }
+  .layout {
+    display: flex;
+  }
+  h1{
+    font-family: Libre Baskerville, serif;
+  }
+  h2{
+    font-family: Libre Baskerville, serif;
+  }
+  h3{
+    font-family: Libre Baskerville, serif;
+  }
+  h4{
+    font-family: Libre Baskerville, serif;
+  }
+  p{
+    font-family: Libre Baskerville, serif;
+  }
+  .sidebar{
+    background-color: #005555;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-right: 15px;
+    min-height: 100%;
+    padding: 2px;
+  }
+  
+  .content {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header {
+    height: 10vh;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px gray;
+    background-color: white;
+  }
+  .body {
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px gray;
+    background-color: white;
+  }
+
+  .logo h6 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 10px 0px;
+    font-family: Libre Baskerville, serif;
+  }
+
+  .menu{
+    margin-top: 100px;
+    padding: 0 10px;
+  }
+  
+  .menu-item{
+    margin-top: 30px;
+  }
+  
+  .menu-item a{
+    color: rgba(255, 255, 255, 0.727);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .menu-item i{
+    color: rgba(255, 255, 255, 0.716);
+    text-decoration: none;
+    font-size: 18px;
+    margin:0 15px;
+  }
+  
+  .active-menu-item{
+    color: white;
+    background-color: #013737;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .active {
+    background-color: white;
+    padding: 10px;
+  }
+  .active a,
+  .active i {
+    color: rgb(51, 1, 1);
+  }
+  
+  .header img {
+    height: 4.3rem;
+    width: auto;
+  }
+
+  .header-content {
+    display: inline;
+    height: 50px;
+    justify-content: flex-end;
+    margin: 0 15px;
+  }
+  
+  .header-content i {
+    font-size: 1.2rem;
+    display:inline;
+    justify-content: flex-end;
+  }
+  .header-content a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    color: #377474;
+    margin: 0 10px;
+    text-transform: uppercase;
+  }
+.btn{
+  background-color: #105053;
+  color: white;
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  border:'none';
+}
+.btn2{
+  background-color:  #2ea7a7;
+  border:'none';
+  
+}
+.header img {
+  height: 4.3rem;
+  width: auto;
+  align-content: flex-start;
+}
+input{
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.521) !important;
+  height: 40px !important;
+}
+input:focus , .ant-picker{
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+label{
+  font-size: 16px !important;
+  color: black !important;
+}
+.ant-form-item{
+  margin: 10px 0 !important;; 
+}
+.ant-picker-input input{
+  border: none !important;
+}
+.ant-picker{
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.521) !important;
+  height: 40px !important;
+}
+
+
+  @media screen and (max-width: 768px){
+  
+    .menu{
+        padding: 0 5px;
+    }
+    
+}
+
+  img {
+    width: 40rem;
+    height: auto;
+  }
+  input{
+    border-radius: 2px !important;
+    border: 1px solid rgba(128, 128, 128, 0.521) !important;
+    height: 40px !important;
+  }
+  input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid gray !important;
+  }
