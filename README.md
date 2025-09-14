@@ -1,10 +1,10 @@
 # EmpowerCare
-Welcome to Doc-Connect, a web application revolutionizing the doctor-patient connection!
+Welcome to EmpowerCare, a web application revolutionizing the doctor-patient connection!
 Online health systems can provide patients with personalized health education materials, self-assessment tools, and interactive platforms for engaging with healthcare professionals and peers.
 This empowers patients to take an active role in their health management and make informed decisions.
 
 ## Project Walkthrough
-Explore the architecture, features, and setup of Doc-Connect, a web application designed to streamline and enhance the doctor-patient connection. This walkthrough provides comprehensive insights into the project, guiding you through its implementation and showcasing its key functionalities.
+Explore the architecture, features, and setup of EmpowerCare, a web application designed to streamline and enhance the doctor-patient connection. This walkthrough provides comprehensive insights into the project, guiding you through its implementation and showcasing its key functionalities.
 
 
 
